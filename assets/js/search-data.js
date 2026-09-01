@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-this-is-a-placeholder-announcement-left-over-from-the-template-that-i-may-repurpose-later",
+          title: 'This is a placeholder announcement left over from the template that I may...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_9_long/";
+            },},{id: "news-i-ve-started-a-3-month-research-visit-at-mila-in-montreal-where-i-m-joining-prof-siva-reddy-s-lab-and-working-on-a-project-with-the-amazing-dr-verna-dankers",
+          title: 'I’ve started a 3-month research visit at Mila in Montreal, where I’m joining...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-cot-faithfulness-under-cue-effects-is-up-on-arxiv-sparkles-check-out-aryo-s-twitter-thread-for-a-pitch",
+          title: 'Our paper on CoT Faithfulness under cue effects is up on arXiv! :sparkles:...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -497,39 +497,46 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/neelrajani.bsky.social", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%4E%65%65%6C.%52%61%6A%61%6E%69@%65%64.%61%63.%75%6B", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Neelectric", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/neel-rajani-9a4a76241", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=tk-_VLwAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://twitter.com/NeelRajani_", "_blank");
         },
       },{
       id: 'light-theme',
