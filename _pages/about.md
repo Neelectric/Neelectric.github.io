@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student at the CDT for <a href='https://www.responsiblenlp.org/'>Designing Responsible NLP</a>. 
 
 profile:
   align: right
